@@ -1,4 +1,6 @@
 # EmailAutomate
+View RAW DATA
+
 Print to Email to Bot to cycle to Print
 
 <Mail Setup Raspberry Pi /w Repetier-Server on Linux>
@@ -59,7 +61,7 @@ sudo nano /var/lib/Repetier-Server/database/extcommands.xml
 
 <config>
 
-//<execute name = "emailjob" allowParams = "true" >/usr/bin/python /home/pi/EmailScript.py </execute>
+<execute name = "emailjob" allowParams = "true" >/usr/bin/python /home/pi/EmailScript.py </execute>
 
 </config>
 
