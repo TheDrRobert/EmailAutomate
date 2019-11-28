@@ -59,7 +59,7 @@ sudo nano /var/lib/Repetier-Server/database/extcommands.xml
 
 <config>
 
-<execute name = "emailjob" allowParams = "true" >/usr/bin/python /home/pi/EmailScript.py </execute>
+#<execute name = "emailjob" allowParams = "true" >/usr/bin/python /home/pi/EmailScript.py </execute>
 
 </config>
 
